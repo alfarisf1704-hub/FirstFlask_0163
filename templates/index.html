@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <title>FirstFlask_0163</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h1>Belajar Input Nama</h1>
+
+    <form action="/firstFlask" method="POST">
+        <label for="name">Nama : </label>
+        <input type="text" id="name" name="name" placeholder="MASUKKAN NAMA ANDA" required>
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+
+</html>
